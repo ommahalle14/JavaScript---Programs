@@ -1,28 +1,9 @@
-let a = 5;
-let b = 10;
-let c = 7;
-let d = 3;
+const principle = 10000;
+const rate = 0.10;
+const N = 2;
+const time = 3;
+const amount = principle *(1+rate / N) ** (N * time);
+const compoundinterest = amount - principle;
 
-if (a % 2 == 0) {
-    console.log("the number",a, "is even");
-} else {
-    console.log("the number",a, "is odd");
-}
-
-if (b % 2 == 0) {
-    console.log("the number",b, "is even");
-} else {
-    console.log("the number",b, "is odd");
-}
-
-if (c % 2 == 0) {
-    console.log("the number",c, "is even");
-} else {
-    console.log("the number",c, "is odd");
-}
-
-if (d % 2 == 0) {
-    console.log("the number",d, "is even");
-} else {
-    console.log("the number",d, "is odd");
-}
+console.log("amount : " , amount.toFixed(2));
+console.log("compound interest for  3 years :", compoundinterest.toFixed(3));
