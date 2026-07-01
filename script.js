@@ -10,7 +10,7 @@ function maxno(){
 }
 
 const maximumno = maxno();
-console.log(" max number in array is",maximumno);
+console.log(" Maximum number :",maximumno);
 
 
 
@@ -21,7 +21,7 @@ let sumofele = function(){
     }
     return sum;
 }
-console.log("sum of all elements is :",sumofele());
+console.log("sum of all elements :",sumofele());
 
 
 let noofoddnumber = ()=>{
@@ -33,4 +33,4 @@ let noofoddnumber = ()=>{
     }
     return count;
 }
-console.log("number of odd numbers :",noofoddnumber());
+console.log("count of odd numbers :",noofoddnumber());
