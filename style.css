@@ -1,0 +1,61 @@
+.headtag{
+    display: flex;
+    justify-content: space-between;
+}
+#cardcontainer{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin: 5%;
+    justify-content: center;
+}
+.card{
+    justify-content: center;
+    align-self: center;
+    width: 350px;
+    padding: 10px;
+    background-color: aliceblue ;
+    border: 1px solid #c0efff;
+    border-radius: 25px;
+    box-shadow:0 0 10px rgb(175, 231, 249);
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #c0efff;
+}
+
+input{
+    width:300px;
+    padding:10px;
+    margin:5px;
+    border: 1px solid rgb(0, 167, 223);
+    border-radius: 20px;
+    margin-left: 100px;
+    transition: 0.5s;
+}
+input:hover{
+    transform:scale(1.05);
+}
+button{
+    padding: 10px;
+    border: 1px solid rgb(0, 167, 223);
+    background-color: aliceblue;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: #c0efff;
+}
+header h2{
+    padding: 10px;
+    color: rgb(115, 220, 255);
+}
+header button{
+    margin: 20px;
+    padding: 20px;
+}
+.search{
+    margin-top: 20px;
+}
